@@ -1,6 +1,32 @@
+html,
+body {
+    margin: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
 
-h1 {
-    font-size: 14pt;
-    font-weight: bold;
-    color: darkcyan;
+#map {
+    width: 100%;
+    height: 100%;
+}
+
+#projection-select {
+    position: absolute;
+    top: 5px;
+    left: 6px;
+    z-index: 99;
+}
+
+.graticule {
+    fill: gray;
+    stroke: black;
+    stroke-width: 1px;
+    fill-opacity: 0;
+}
+
+.outline {
+    stroke: black;
+    stroke-width: 1px;
+    fill-opacity: 0;
 }
